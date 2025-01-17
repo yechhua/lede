@@ -32,7 +32,6 @@ jobs:
         env:
           DEBIAN_FRONTEND: noninteractive
         run: |
-          sudo -E apt-get -y purge \
             azure-cli \
             ghc* \
             zulu* \
